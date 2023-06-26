@@ -1,0 +1,57 @@
+/*este archivo perstenese al id pie que es el pie de la pagina a qui se cnfigura las imagenes y lo que se ocupe*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+footer{
+    flex-wrap: wrap;
+	height: 600px;
+	background: #1A120B;
+    color: white;
+    height: auto;
+    padding: 30px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.vr{
+    text-align: right;
+    font-family:'Open Sans';
+    font-size: 15px;
+}
+footer p{
+	text-align: left;
+    font-family:'Open Sans';
+    font-size: 20px;
+}
+
+footer nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+footer H1{
+    font-size: 40px;
+    padding-left: 20PX;
+    padding-right: 20px;
+    padding-top: 40px;
+	font-family: 'open sans';
+    text-align: left;
+}
+
+.footerimg{
+	width: 50px;
+	height: 50px;
+	border-radius: 0%;
+}
+
+footer a{
+	color: white;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.gmail{
+	width: 50px;
+	height: 40px;
+	border-radius: 0%;
+
+}

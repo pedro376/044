@@ -1,0 +1,48 @@
+/* esto es la partre del menu el cual se adapta a los dispositivos */
+#menu-bar{
+	display: none;
+}
+header label{
+	float: right;
+	font-size:28px;
+	margin: 6px ;
+	cursor: pointer;
+}
+
+.menu{
+	top: 50px;
+	left: 0;
+	position: absolute;
+	width: auto;
+	height: 100vh;
+	background: rgba(51, 51, 51, 0.8) ;
+	transition: all 0.5s;
+	transform: translateX(-100%);
+}
+.menu li{
+	list-style: none;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	display:block;
+	height: 50px;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.menu li a:hover{
+	background: rgba(255, 255, 255, 0.3);
+}
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%);
+}
+/* este es el sub menu el cual no tiene valres de sub menu debi que este sub menu detectara cualcuier sub menu que aiga en el menu */
+nav ul ul {
+	height: 0px;
+	transition: 0.4s;
+	overflow: hidden;
+}
+nav ul li:hover ul{
+	height:300px;
+}
+

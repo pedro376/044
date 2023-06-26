@@ -1,0 +1,237 @@
+/* este es la parte de las imagenes con texto a los lados */
+
+img{
+	border-radius: 50%;
+}
+#img1{
+	background-color:#f2f2f2;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+#img1{
+	background-color:#f2f2f2;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+#img1 h1 a{
+	text-decoration-line: none;
+	text-align: center;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+#img1 h1 a:hover{
+	text-decoration-line:underline ;
+}
+#img1 img{
+	border: solid;
+	border-color:#DBB2B4;
+	box-shadow: 3px 3px 9px;
+	margin: 15px;
+	width: 30%;
+	transition:0.2s;
+}
+#img1 img:hover{
+	transform: scale(1.1);
+}
+
+section article img{
+	border-radius: 50%;
+}
+
+#img2{
+	background-color:#DBB2B4;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#img2 h1 a{
+	text-decoration-line:none;
+	text-align: center;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+#img2 h1 a:hover{
+	text-decoration-line: underline;
+}
+
+
+#img2 img{
+	border: solid;
+	border-color: #f2f2f2;
+	box-shadow: 3px 3px 9px;
+	margin: 15px;
+	width: 40%;
+	transition: 0.2s;
+
+}
+#img2 img:hover{
+	transform: scale(1.1);
+}
+#img3{
+	background-color:#f2f2f2;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+#img3 h1 a{
+	text-decoration-line:none;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+#img3 h1 a:hover{
+	text-decoration-line: underline;
+}
+#img3 img{
+	border: solid;
+	border-color: #DBB2B4;
+	box-shadow: 3px 3px 9px;
+	margin: 15px;
+	width: 40%;
+	transition: 0.2s;
+}
+#img3 img:hover{
+	transform: scale(1.1);
+}
+#img4{
+	background-color:#DBB2B4;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#img4 h1 a{
+	text-decoration-line: none;
+	text-align: center;
+	font-size: 40px;
+	width: 20%;
+	padding-bottom: 10px;
+	font-family: playfair;
+}
+#img4 h1 a:hover{
+	text-decoration-line: underline;
+}
+#img4 img{
+	border: solid;
+	border-color: #f2f2f2;
+	box-shadow:3px 3px 9px;
+	margin: 15px;
+	width: 40%;
+	transition: 0.2s;
+}
+#img4 img:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+
+}
+
+#img4 article{
+	background-color:#DBB2B4;
+	display: flex;
+	padding: 60px;
+	flex-direction: column;
+	justify-content: right;
+	align-items: center;
+}
+
+#img5 article{
+	align-items: center;
+	flex-direction:column ;
+	background-color: #F2F2F2;
+	display: flex;
+	padding: 60px;
+	justify-content: left;
+}
+#img5 h1 a{
+	font-family: playfair;
+	text-decoration-line: none;
+}
+#img5 h1 a:hover{
+	text-decoration-line:underline ;
+}
+#img5 img{
+	border: solid;
+	border-color: #DBB2B4;
+	box-shadow:3px 3px 9px;
+	transition: 0.2s;
+}
+#img5 img:hover{
+	transform: scale(1.1);
+}
+article h2{
+	text-align: center;
+	font-size: 20px;
+	width: 40%;
+	padding: 30px;
+	font-family: playfair;
+}
+
+article img{
+	margin: 10px;
+	width: 40%;
+
+}
+
+
+article img{
+	margin: 10px;
+
+}
+/* esta parte es del primer texto de bienvenido*/
+#bienvenidos {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bienvenidos h2{
+	padding: 10px;
+	padding-bottom: 30px;
+	font-size: 50px;
+	text-align: center;
+	font-family: playfair;
+}
+
+.bienvenida{
+	width: 80%;
+	text-align: center;
+	font-family: 'Lucida Sans';
+}
+
+html{
+	transition: 0.4s;
+	scroll-behavior: smooth;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: underline;
+	color: rgb(41, 21, 7);
+}

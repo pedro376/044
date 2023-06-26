@@ -1,0 +1,121 @@
+/* este es la parte de las imagenes con texto a los lados */
+
+img{
+	border-radius: 50%;
+}
+
+/* esta parte es del primer texto de bienvenido*/
+.seccion{
+    background-color:#f2f2f2;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+}
+.articulos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.articulos h1{
+	font-family: playfair;
+	font-size: 60px;
+}
+.articulos p{
+	padding: 1%;
+	margin: auto;
+    width: 60%;
+    font-size: 30px;
+    font-family: playfair;
+
+}
+
+
+.boton1{
+	border: solid;
+	border-color: #929ddf;
+	background-color:#7e8bd9;
+	border-radius: 6vh;
+	text-align: center;
+	transition: 0.3s;
+}
+.boton1:hover{
+	transform: scale(1.1);
+	border-color: #7e8bd8;
+	background-color: #A5AFEF;
+}
+.boton1 a{
+	padding: 5px;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+/* id="pasteles" */
+.titulopas{
+	color: white;
+	text-align: center;
+	font-family: playfair;
+	font-size: 50px;
+}
+#pasteles .pop{
+	margin: 15px;
+}
+.imgpo {
+	border-radius: 20px;
+	height: 300px;
+	width: 30vh;
+}
+#pasteles .pastel2{
+	padding: 4%;
+	margin:20px;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#pasteles{
+		background-color:#DBB2B4;
+		align-items: center;
+}
+
+#bienvenidos {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#bienvenidos h2{
+	padding: 10px;
+	padding-bottom: 30px;
+	font-size: 50px;
+	text-align: center;
+	font-family: playfair;
+}
+
+.bienvenida{
+	width: 80%;
+	text-align: center;
+	font-family: 'Lucida Sans';
+}
+
+html{
+	transition: 0.4s;
+	scroll-behavior: smooth;
+}
+
+a{
+	font-size: 30px;
+	text-decoration: underline;
+	color: rgb(41, 21, 7);
+}
+
+.pop img{
+	border: solid;
+	border-color: white;
+	box-shadow: 3px 3px 6px;
+	transition: 0.2s;
+}
+.pop img:hover{
+	transform: scale(1.1);
+}
